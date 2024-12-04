@@ -1,5 +1,6 @@
 package dev.yank.taskmanager.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 
@@ -16,6 +17,7 @@ public class Project {
     private String name;
 
     @OneToMany(mappedBy = "project")
+    @JsonIgnore
     private List<Task> tasks;
 
     public Project() {}
