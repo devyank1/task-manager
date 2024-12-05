@@ -34,17 +34,17 @@ Purpose: Remove data from the database. <br> <br>
 
 <details>
 <summary><b>Users</b></summary>
-<img src="\api-medical\src\main\java\com\hospital\api_medical\img\img1.png" alt="">
+<img src="./img/img1.png" alt="">
 </details>
 
 <details>
 <summary><b>Task</b></summary>
-<img src="\api-medical\src\main\java\com\hospital\api_medical\img\img2.png" alt="">
+<img src="./img/img2.png" alt="">
 </details>
 
 <details>
 <summary><b>Projects</b></summary>
-<img src="\api-medical\src\main\java\com\hospital\api_medical\img\img3.png" alt="">
+<img src="./img/img3.png" alt="">
 </details>
 
 ## 💻 Technology
@@ -55,6 +55,7 @@ Purpose: Remove data from the database. <br> <br>
 - Maven
 - JUnit5
 - Mockito
+- Prometheus & Grafana
 - AWS (In progress)
 
 ## 👨‍💻 Dev
